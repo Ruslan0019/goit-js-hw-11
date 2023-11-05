@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(108, 109, 109);
+  color: aliceblue;
+}
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.load-more {
+  margin: 20px auto;
+}
+.img {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+.info-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-card {
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(92, 50, 50, 0.5);
+}
+.info {
+  margin: 15px;
+}
+.search {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  height: 40px;
+  gap: 3px;
+  border-radius: 5px;
+}
+.input {
+  width: 400px;
+}
