@@ -11,8 +11,8 @@ let page = 0;
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    page = 1; // Початкова сторінка при новому пошуку
-    gallery.innerHTML = ''; // Очищення галереї
+    page = 1; 
+    gallery.innerHTML = ''; 
     searchQuery = e.target.searchQuery.value;
     searchImages(searchQuery, page);
 });
